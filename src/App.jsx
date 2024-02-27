@@ -15,7 +15,7 @@ function App() {
   const [imageSelected, SetImageSelected] = useState(initialImage)
 
   const objStyle = {
-    backgroundImage: `url("/public/fondo${imageSelected}.jpg")`,
+    backgroundImage: `url("/src/assets/img/fondo${imageSelected}.jpg")`,
   }
   return (
     <div className='app' style={objStyle}>
